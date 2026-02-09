@@ -28,8 +28,17 @@ ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 22px;
   text-decoration: none;
+  text-decoration-style: dotted;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: 600;
+  font-display: fallback;
+  font-language-override: initial;
+  font-variant-ligatures: no-common-ligatures;
+  font-variant-caps: all-small-caps;
+  font-variant-numeric: slashed-zero;
 }
 
 ul li a:hover:not(.active) {
@@ -38,4 +47,5 @@ ul li a:hover:not(.active) {
 
 ul li a.active {
   background-color: #04AA6D;
+  font-style: inherit;
 }
