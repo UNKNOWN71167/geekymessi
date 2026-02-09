@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  background: goldenrod;
+  background-image: -moz-radial-gradient(circle at center, #ffdf00 0%, #ff8c00 100%);
+  background-attachment: fixed;
 }
 
 h1, p {
