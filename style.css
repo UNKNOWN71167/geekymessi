@@ -1,16 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  background: goldenrod;
+  background: linear-gradient(gold,white);
   background-image: -moz-radial-gradient(circle at center, #ffdf00 0%, #ff8c00 100%);
   background-attachment: fixed;
   font-size: large;
+  text-transform: capitalize;
+  text-shadow: #f00909;
+  text-decoration: double;
   
   font-style: italic;
 }
 
 h1, p {
   margin-left: 20px;
+  text-decoration: wavy;
 }
 
 ul {
@@ -18,7 +22,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #619baa;
+  background: linear-gradient(lightblue,lightgreen);
 }
 
 ul li {
@@ -35,7 +39,7 @@ ul li a {
   color: white;
   text-align: center;
   padding: 20px 22px;
-  text-decoration: none;
+  text-decoration: ivory;
   text-decoration-style: dotted;
   font-style: oblique;
   font-variant: small-caps;
@@ -45,6 +49,7 @@ ul li a {
   font-variant-ligatures: no-common-ligatures;
   font-variant-caps: all-small-caps;
   font-variant-numeric: slashed-zero;
+
 }
 
 ul li a:hover:not(.active) {
