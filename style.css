@@ -54,6 +54,7 @@ ul li a {
 
 ul li a:hover:not(.active) {
   background-color: #724545;
+  font-synthesis-position: var(#bbbbbb);
 }
 
 ul li a.active {
